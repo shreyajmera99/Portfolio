@@ -11,7 +11,7 @@
 body {
     margin: 0;
     background-color: rgb(11, 11, 54);
-
+    overflow-x: hidden;
   }
   *{
       scroll-behavior: smooth;
@@ -203,7 +203,7 @@ body {
         height: 18vmax;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: start;
         flex-direction: column;
         
     }
@@ -214,16 +214,16 @@ body {
     }
     
     .products2 > img:hover {
-        transform: scale(1.5);
+        transform: scale(2);
         cursor: zoom-in;
-        z-index: 1;
+        z-index: 1  ;
         position: relative;
 
     }
  /* footer */
  
 footer {
-    margin-top: 10vmax;
+    /* margin-top: vmax; */
     padding: 2vmax;
     background-color: rgb(34, 33, 33);
     color: white;
@@ -309,4 +309,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.card {
+  background-color: rgb(21, 11, 72);
+  color: white;
 }
