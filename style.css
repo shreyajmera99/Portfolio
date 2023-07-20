@@ -9,14 +9,14 @@
     }
   }
 body {
-    margin: 0;
     background-color: rgb(11, 11, 54);
+    width: 105%;
     overflow-x: hidden;
   }
   *{
       scroll-behavior: smooth;
       font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-  
+    
   }
   nav {
       height: 4vmax;
@@ -29,6 +29,7 @@ body {
       z-index: 10000;
       background-color:  rgb(21, 11, 72);
       color: white;
+      width: 100%;
     }
     
     .left {
